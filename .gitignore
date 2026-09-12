@@ -1,0 +1,41 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Large datasets & raw images
+ISIC_ES/
+*.jpg
+*.jpeg
+*.png
+*.zip
+*.tar.gz
+
+# Model checkpoints (weights exceeding GitHub 100MB limit)
+checkpoints/*
+!checkpoints/.gitkeep
+*.pth
+*.pt
+*.onnx
+*.h5
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Microsoft/
+
+# Logs
+*.log
